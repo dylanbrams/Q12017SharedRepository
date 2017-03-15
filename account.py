@@ -1,7 +1,7 @@
 class Account(object):
     def __init__(self):
-        _interest = 0
-        _balance = 0
+        self._interest = 0.001
+        self._balance = 0
 
 
 #Main Definition
