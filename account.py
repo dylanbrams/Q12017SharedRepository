@@ -64,10 +64,10 @@ def main():
         action = input("? >>> ")
         if action == '2':
             deposit = input ('How much are you depositing?')
-            current_account.deposit(deposit)
+            current_account.deposit(float(deposit))
         elif action == '3':
             withdrawal = input ('How much are you withdrawing?')
-            amount_withdrawn = current_account.withdraw(withdrawal)
+            amount_withdrawn = current_account.withdraw(float(withdrawal))
             print ('Amount withdrawn: $' + str(amount_withdrawn))
         elif action == '4':
             interest = current_account.calc_interest()
