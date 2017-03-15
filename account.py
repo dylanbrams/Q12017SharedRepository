@@ -32,7 +32,7 @@ class Account(object):
         return self._balance
 
     def check_withdrawal(self, amount):
-        if amount >= self._balance:
+        if amount <= self._balance:
             return True
         else:
             return False
