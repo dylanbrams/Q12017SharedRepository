@@ -4,13 +4,9 @@ class Account(object):
         self._balance = 0
 
 
-    class Deposit:
-        def __init__(self, money_in, account_num):
-            self.deposit = money_in
+    def deposit(money_in):
 
-
-    class CalcInterest:
-        def __init__(self):
+    def calc_interest(, balance):
 
 #Main Definition
 def main():
