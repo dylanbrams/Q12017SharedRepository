@@ -6,9 +6,20 @@ class Account(object):
         self._balance = 0
 
 
-    def deposit(money_in):
+    def deposit(self, amount):
+        """
 
-    def calc_interest(, balance):
+        :return:
+        """
+        self._balance += amount
+        return
+    def calc_interest(self):
+        """
+
+        :return:
+        """
+        interest = self._interest*self._balance
+        return(interest)
 
 #Main Definition
 def main():
